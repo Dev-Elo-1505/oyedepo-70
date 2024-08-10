@@ -6,7 +6,7 @@ import { HomePage, NotFoundPage } from './pages'
 
 function App() {
   return (
-    <>
+    <div>
      <NavBar />
      <BrowserRouter>
      <Routes>
@@ -14,7 +14,7 @@ function App() {
       <Route path='*' element={<NotFoundPage />} />
      </Routes>
      </BrowserRouter>
-    </>
+    </div>
   )
 }
 
