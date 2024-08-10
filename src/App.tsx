@@ -1,12 +1,18 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
+import NavBar from './components/NavBar'
+import { HomePage } from './pages'
 
 function App() {
-  
-
   return (
     <>
-     <h1 className='text-green-500 underline'>Please work</h1>
+     <NavBar />
+     <BrowserRouter>
+     <Routes>
+      <Route path='/' element={<HomePage />} />
+     </Routes>
+     </BrowserRouter>
     </>
   )
 }
