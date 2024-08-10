@@ -10,6 +10,9 @@ export default {
         openSans: ['Open Sans', 'sans-serif'],
         sarala: ['Sarala', 'sans-serif'],
     },
+    backgroundImage: {
+      'banner': "url('../src/assets/oyedepo-banner.webp')",
+    },
   },
   plugins: [],
 }
