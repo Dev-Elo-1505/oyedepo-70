@@ -11,7 +11,8 @@ export default {
         sarala: ['Sarala', 'sans-serif'],
     },
     backgroundImage: {
-      'banner': "url('../src/assets/oyedepo-banner.webp')",
+      'banner': "url('../src/assets/home-banner.webp')",
+      'about-banner': "url('../src/assets/about-banner.jpg')",
     },
   },
   plugins: [],

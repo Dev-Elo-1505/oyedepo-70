@@ -1,6 +1,10 @@
+interface Props {
+    backgroundClass: string;
+    heading: string;
+    subtext: string
+}
 
-
-const Hero = ({ backgroundClass, heading, subtext }) => {
+const Hero = ({ backgroundClass, heading, subtext }: Props) => {
     return (
     <section className="font-openSans">
         <div className={`relative ${backgroundClass} bg-cover bg-center h-screen flex items-center justify-center`}>
