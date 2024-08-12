@@ -14,6 +14,9 @@ export default {
       'banner': "url('../src/assets/home-banner.webp')",
       'about-banner': "url('../src/assets/about-banner.jpg')",
     },
+    colors: {
+      "section": "#f8f9fa",
+    }
   },
   plugins: [],
 }
