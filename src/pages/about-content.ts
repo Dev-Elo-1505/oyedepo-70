@@ -1,3 +1,5 @@
+
+
 const about = [
     {
         name: "biography",
@@ -7,7 +9,7 @@ const about = [
     {
         name: 'ministry',
         title: 'MINISTRY',
-        content: [`Oyedepo became "born again" in 1969, through the influence of his teacher Betty Lasher (18 June 1930 – 26 August 2022), who took an interest in him during his high school days. According to him, he received a mandate from God through an 18-hour vision in May 1981, to liberate the world from all oppressions of the devil through the preaching of the word of faith. This is the inaugural vision that led to the founding of the Living Faith Church World Wide (LFCWW), first called Liberation Faith Hour Ministries, in 1981.`, `Two years later, on 17 September 1983, Pastor Enoch Adeboye, General Overseer of the Redeemed Christian Church of God, ordained David and his wife, Florence Abiola Akano (known as Faith Abiola Oyedepo[8]) to become pastors and officially commissioned the new church. Five years later, Oyedepo was ordained as Bishop by his life mentor, the late Archbishop Benson Idahosa.`, `Living Faith Church (AKA Winners Chapel International) started in Kaduna but moved to Lagos, the former capital of Nigeria in July 1989, to start a new branch of the church after Oyedepo claimed to have received instructions from God to reach out to the people of Lagos.`]
+        content: [`Oyedepo became "born again" in 1969, through the influence of his teacher Betty Lasher (18 June 1930 – 26 August 2022), who took an interest in him during his high school days. According to him, he received a mandate from God through an 18-hour vision in May 1981, to liberate the world from all oppressions of the devil through the preaching of the word of faith. This is the inaugural vision that led to the founding of the Living Faith Church World Wide (LFCWW), first called Liberation Faith Hour Ministries, in 1981.`, `Two years later, on 17 September 1983, Pastor Enoch Adeboye, General Overseer of the Redeemed Christian Church of God, ordained David and his wife, Florence Abiola Akano (known as Faith Abiola Oyedepo) to become pastors and officially commissioned the new church. Five years later, Oyedepo was ordained as Bishop by his life mentor, the late Archbishop Benson Idahosa.`, `Living Faith Church (AKA Winners Chapel International) started in Kaduna but moved to Lagos, the former capital of Nigeria in July 1989, to start a new branch of the church after Oyedepo claimed to have received instructions from God to reach out to the people of Lagos.`]
     },
     {
         name: 'dodos',

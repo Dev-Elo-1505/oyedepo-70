@@ -14,16 +14,14 @@ interface Props {
 
 const About = ({ about }: Props) => {
     return (
-    <section className="flex px-28 pt-12 justify-between items-center gap-48 bg-section font-openSans">
+    <section className="px-28 py-4">
         {about.map((item, index) => (
-            <div className="text-justify" key={index}>
-            <h2 className="text-xl text-red-500 mb-2 font-bold">{item.title}</h2>
-            <p>{item.content[0].substring(0, 100)}...</p>
+            <div className="mt-4 shadow-sm p-2 rounded" key={index}>
+            <h2 className="text-2xl text-red-500 font-semibold">{item.title}</h2>
+            <p className="text-slate-500">{item.content[0].substring(0, 200)}...</p>
             <Link to={`/about/${item.name}`}><Button desc="Read More" /></Link>
             </div>
         ))}
-        <div><BsFillPersonLinesFill className="text-7xl text-red-500" /></div>
-        
     </section>
 )
 }
