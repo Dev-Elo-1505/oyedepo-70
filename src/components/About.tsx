@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Button from "./Button";
 
 interface AboutItem {

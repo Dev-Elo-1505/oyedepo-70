@@ -10,7 +10,7 @@ const NavBar = () => {
         </div>
         <ul className='flex items-center gap-8'>
             <li><NavLink className={({ isActive}) => isActive? "border-b-2 border-red-500" : "border-none"} to='/about'>About</NavLink></li>
-            <li><NavLink className={({ isActive}) => isActive? "border-b-2 border-red-500" : "border-none"} to='/about'>Quotes</NavLink></li>
+            <li><NavLink className={({ isActive}) => isActive? "border-b-2 border-red-500" : "border-none"} to='/quotes'>Quotes</NavLink></li>
             <li><NavLink className={({ isActive}) => isActive? "border-b-2 border-red-500" : "border-none"} to='/about'>Sermons</NavLink></li>
             <li><NavLink className={({ isActive}) => isActive? "border-b-2 border-red-500" : "border-none"} to='/about'>Timelines</NavLink></li>
         </ul>

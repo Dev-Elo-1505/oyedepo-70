@@ -2,7 +2,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import NavBar from './components/NavBar'
-import { HomePage, NotFoundPage, AboutPage } from './pages'
+import { HomePage, NotFoundPage, AboutPage, QuotesPage } from './pages'
 import AboutInfoPage from './pages/AboutInfoPage'
 
 
@@ -15,6 +15,7 @@ function App() {
       <Route path='/' element={<HomePage />} />
       <Route path='/about' element={<AboutPage />} />
       <Route path='/about/:aboutId' element={<AboutInfoPage />} />
+      <Route path='/quotes' element={<QuotesPage />} />
       <Route path='*' element={<NotFoundPage />} />
      </Routes>
     </div>
