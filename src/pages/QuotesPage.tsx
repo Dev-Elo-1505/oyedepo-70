@@ -9,7 +9,7 @@ import React from "react";
 
 const QuotesPage = () => {
   return (
-    <section className="px-28 py-4">
+    <section className="p-8 lg:px-28 lg:py-4">
       <h1 className="text-2xl text-red-500 font-semibold mb-2">QUOTES</h1>
       <div>
         <p className="text-slate-800 leading-8 text-justify">

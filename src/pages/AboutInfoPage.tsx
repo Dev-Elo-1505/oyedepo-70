@@ -8,7 +8,7 @@ const AboutInfoPage = () => {
 
   if (!about) return <NotFoundPage />;
   return (
-    <div className="px-28 py-4">
+    <div className="p-8 lg:px-28 lg:py-4">
       <div>
         <h1 className="text-2xl text-red-500 font-semibold mb-4">
           {about.title}

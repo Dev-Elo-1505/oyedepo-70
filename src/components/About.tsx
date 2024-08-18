@@ -13,9 +13,9 @@ interface Props {
 
 const About = ({ about }: Props) => {
     return (
-    <section className="px-28 py-4">
+    <section className=" p-8 lg:px-28 lg:py-4">
         {about.map((item, index) => (
-            <div className="mt-4 shadow-sm p-2 rounded" key={index}>
+            <div className="mt-4 border-b-[1px] border-slate-200 p-2 rounded" key={index}>
             <h2 className="text-2xl text-red-500 font-semibold">{item.title}</h2>
             <p className="text-slate-500">{item.content[0].substring(0, 200)}...</p>
             <Link to={`/about/${item.name}`}><Button desc="Read More" /></Link>
